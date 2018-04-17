@@ -21,7 +21,6 @@ git config --local -e
 
 # 設置 Commit Editor
 > 原文 http://t.cn/RmnzKQG
-
 1. vscode 終端機  code --help
 > 若無出現提示，見原文 
 2. git config --global core.editor "code --wait"
@@ -31,3 +30,16 @@ git config --local -e
 可查看 remote & 是否儲存帳號
 
 5. git commit 不加 -m 會自動打開
+
+# 設置 .gitmessage 模板
+
+1. 建立 .gitmessage file
+2. 內文撰寫 Template
+3. 設定template
+git config commit.template "補上資料夾位置"/.gitmessage
+4. git commit 即可 進入編寫
+
+//* 取消設定 git config --unset ~
+//? git config -l 可查看有哪些設定可用
+
+<!-- C:\\Users\\RocMark\\Desktop\\Git Prac\\.gitmessage -->
