@@ -1,27 +1,38 @@
 # Git Practice
 Git操作練習與筆記整理用 專案
 
-# 待 Review
+# Git Flow 待學
 
-* git revert vs reset vs checkout 比較
+# 待 Review
+* git stash review
+* git revert vs reset vs checkout 比較 
+(待重新實作 review)
 > 好文值得 review http://t.cn/RmnkIVO
 
 # 待查詢
 git diff P2 //! 待補
-git show 用法
-
-git stash review&可再深入
-
+//? 3-7 補
 git log 6-2 review&補
+git remote相關 //? 待補 16-17 (筆記在書裡)
+github 操作 //? 待補 18 (筆記在書裡)
 
-git branch 7-6 7-7 待補上
+//* 待查
+git show 用法
+ST Stage Hunk 怎操作
 
-git revert review
+# Note
+//! git checkout 前 
+> 先 git status 檢查檔案 & 緩存任何更動 (避免檔案不一致7-7)
 
 # 有需要在學 List
+* git cherry-pick 待深入
+
+# 進階操作
 * 自訂標籤  git tag
 * 自訂指令  git config alias 
 * GitStats 統計數據 6-5
+* GitLab (自建Github) 21
+* GitServer 22-24
 
 # 初始化步驟
 * 先建立 README.md 檔案
@@ -44,4 +55,3 @@ HEAD又可以 以 @ 當成縮寫
 ////git rm --cached 檔名
 * 取消 commit 
 git reset HEAD 檔案名
-
