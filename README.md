@@ -22,8 +22,10 @@ git config --local -e
 	helper = store
 
 # 設置 Commit Editor
+> 原文 http://t.cn/RmnzKQG
+
 1. vscode 終端機  code --help
-> 若無見本文
+> 若無出現提示，見原文 
 
 2. git config --global core.editor "code --wait"
 
