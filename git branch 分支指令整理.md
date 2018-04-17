@@ -1,5 +1,6 @@
 # git branch 分支指令整理
 
+<<<<<<< HEAD
 # 分支列表
 git branch 
 不加參數 (綠字為HEAD所在分支)
@@ -24,6 +25,17 @@ git checkout -b 分支名 commitID
 git branch --list bug/* 
 
 //* 可使用 ST 的 Search去找 commit Msg
+=======
+# 建立分支
+//? 建立分支並切換
+git checkout -b 分支名 
+
+> 等同於 git branch 分支名
+> git checkout
+
+# 從指定節點 產生 分支
+git branch 
+>>>>>>> e39ab27b1931cdfcdfcdec4ca23423392881108a
 
 # 修改分支名
 git branch -m 新分支名
