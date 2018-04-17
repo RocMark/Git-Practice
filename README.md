@@ -1,7 +1,10 @@
 # Git Practice
 Git操作練習與筆記整理用 專案
 
-# test revert用!
+# 待 Review
+
+* git revert vs reset vs checkout 比較
+> 好文值得 review http://t.cn/RmnkIVO
 
 # 待查詢
 git diff P2 //! 待補
