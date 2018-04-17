@@ -10,10 +10,13 @@ git commit -m "first commit"
 git remote add origin https://github.com/RocMark/Git-Practice.git
 git push -u origin master
 
-# git push 後
+# 記憶帳號
 會要求輸入帳密，上傳後，執行下列進行記憶帳密
 
 git config credential.helper store
+//? 執行此行後，之後只需要 git push 即可
+
+
 
 # 設置 Commit Editor
 1. vscode 終端機  code --help
