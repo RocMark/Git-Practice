@@ -32,10 +32,6 @@ git push -u origin master
 # git 指令整理
 * git help -a 完整指令清單
 
-# 設置 Commit Editor
-1. vscode 終端機  code --help
-> 若無見本文
-
 # HEAD
 HEAD^ 等同於 HEAD~1
 HEAD又可以 以 @ 當成縮寫
