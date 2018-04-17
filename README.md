@@ -13,10 +13,13 @@ git push -u origin master
 # 記憶帳號
 會要求輸入帳密，上傳後，執行下列進行記憶帳密
 
-git config credential.helper store
+* git config credential.helper store
 //? 執行此行後，之後只需要 git push 即可
-
-
+* remove 帳號記憶
+git config --local -e
+//* 刪除以下兩行
+[credential]
+	helper = store
 
 # 設置 Commit Editor
 1. vscode 終端機  code --help
